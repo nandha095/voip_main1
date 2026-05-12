@@ -31,7 +31,7 @@ dist/
 # pjproject build artifacts (optional - remove if you need to commit compiled binaries)
 pjproject-2.15.1/bin/
 pjproject-2.15.1/lib/
-pjproject-2.15.1/include/
+pjproject-2.15.1
 
 
 # OS
