@@ -60,6 +60,7 @@ async def make_call(destination_number: str, status_callback=None) -> subprocess
     cmd = [
         PJSUA_PATH,
         # Remove --null-audio so pjsua uses the system audio devices for RTP media.
+        # "--null-audio",
         "--id", f"sip:{SIP_ID}@{SIP_DOMAIN}",
         "--registrar", f"sip:{SIP_DOMAIN}",
         "--realm", "*",
