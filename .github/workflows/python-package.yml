@@ -24,6 +24,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Install Test Dependencies
+        run: |
+          pip install pytest
+
+      - name: Run Tests
+        run: |
+          python -m pytest
+
       - name: Check Python Syntax
         run: |
           python -m py_compile main.py
