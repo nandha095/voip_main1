@@ -9,6 +9,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.pyc
 
 # Environment variables
 .env
@@ -31,8 +32,13 @@ dist/
 # pjproject build artifacts (optional - remove if you need to commit compiled binaries)
 pjproject-2.15.1/bin/
 pjproject-2.15.1/lib/
-pjproject-2.15.1
+pjproject-2.15.1/
+pjproject-2.15.1.tar.gz
 
+
+# Build artifacts
+build/
+dist/
 
 # OS
 .DS_Store
